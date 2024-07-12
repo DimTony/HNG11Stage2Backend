@@ -1,0 +1,29 @@
+{
+  "name": "backendjs",
+  "version": "1.0.0",
+  "description": "auth and org",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "jest tests/createUser.test.js"
+  },
+  "author": "TonyDim",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.2",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "supertest": "^6.1.3",
+    "nodemon": "^2.0.15"
+  }
+}
